@@ -18,7 +18,7 @@ AWSS3TransferUtilityUploadCompletionHandlerBlock completionHandler;
     [self enumerateToAssignBlocksForUploadTask:^(AWSS3TransferUtilityUploadTask * _Nonnull uploadTask, AWSS3TransferUtilityProgressBlock  _Nullable __autoreleasing * _Nullable uploadProgressBlockReference, AWSS3TransferUtilityUploadCompletionHandlerBlock  _Nullable __autoreleasing * _Nullable completionHandlerReference) {
 
         uploadProgressBlockReference = self.uploadProgressBlock;
-        completionHandlerReferebnce = self.completionHandler;
+        completionHandlerReference = self.completionHandler;
     } downloadTask: nil];
 }
 
